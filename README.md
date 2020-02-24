@@ -2,11 +2,12 @@
 Install
 ```
 git clone https://github.com/CheshireCatNick/strike-pretest.git
+cd strike-pretest
 npm install
 ```
 
 Usage
-```
+```javascript
 // require node.js >= 12.4.0
 const Exchange = require('./exchange');
 
