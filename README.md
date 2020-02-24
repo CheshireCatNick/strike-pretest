@@ -14,7 +14,7 @@ const Exchange = require('./exchange');
 const initTWD = 10000, initUSD = 1000;
 const exchange = new Exchange(initTWD, initUSD);
 try {
-    const usd = exchange.trade(6000, 'TfWD');
+    const usd = exchange.trade(6000, 'TWD');
     console.log(usd);
 }
 catch(e) {
