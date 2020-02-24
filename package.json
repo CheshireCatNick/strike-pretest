@@ -1,0 +1,20 @@
+{
+  "name": "strike-pretest",
+  "version": "1.0.0",
+  "description": "Install ``` git clone https://github.com/CheshireCatNick/strike-pretest npm install ```",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheshireCatNick/strike-pretest.git"
+  },
+  "author": "Nicky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CheshireCatNick/strike-pretest/issues"
+  },
+  "homepage": "https://github.com/CheshireCatNick/strike-pretest#readme"
+}

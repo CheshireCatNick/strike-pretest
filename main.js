@@ -1,13 +1,3 @@
-# Strike Pretest
-Install
-```
-git clone https://github.com/CheshireCatNick/strike-pretest.git
-npm install
-```
-
-Usage
-```
-// require node.js >= 12.4.0
 const Exchange = require('./exchange');
 
 const initTWD = 10000, initUSD = 1000;
@@ -21,9 +11,3 @@ catch(e) {
     process.exit(-1);
 }
 console.log(exchange.twdReserve, exchange.usdReserve);
-```
-
-Test
-```
-npm test
-```
