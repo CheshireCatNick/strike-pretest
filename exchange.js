@@ -10,10 +10,13 @@ class Exchange {
      */
     trade(amount, currency) {
         if (currency !== 'TWD' && currency !== 'USD') {
-            throw new Error('Unsupported Currency');
+            throw new Error('UnsupportedCurrency');
+        }
+        if (typeof amount !== 'number') {
+            throw new Error('AmountNaN');
         }
         if (amount < 0) {
-            throw new Error('Negative Amount');
+            throw new Error('NegativeAmount');
         }
         if (amount === 0) {
             return 0;
