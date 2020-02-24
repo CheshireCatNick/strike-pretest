@@ -43,6 +43,9 @@ class Exchange {
         return this.#usdReserve;
     }
     constructor(rT = 0, rU = 0) {
+        if (rT < 0 || rU < 0) {
+            throw new Error('NegativeReserve');
+        }
         this.#twdReserve = rT;
         this.#usdReserve = rU;
     }
